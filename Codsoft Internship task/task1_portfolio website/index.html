@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nandini Sonar | Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container header-container">
+        <h1 class="logo">Nandini Sonar</h1>
+        <nav>
+            <button class="tab-btn active" data-tab="about">About</button>
+            <button class="tab-btn" data-tab="skills">Skills</button>
+            <button class="tab-btn" data-tab="projects">Projects</button>
+            <button class="tab-btn" data-tab="resume">Resume</button>
+            <button class="tab-btn" data-tab="contact">Contact</button>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <!-- ABOUT -->
+    <section id="about" class="tab-content active">
+        <h2>About Me</h2>
+        <p>
+            Self-driven and detail-oriented Computer Engineering student with strong programming skills 
+            and hands-on experience in full-stack web development.
+            Passionate about building interactive, scalable, and user-friendly applications.
+        </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="tab-content">
+        <h2>Skills</h2>
+        <ul>
+            <li>C, C++, Java, Python</li>
+            <li>HTML5, CSS3, JavaScript, PHP</li>
+            <li>MySQL, Git, GitHub, XAMPP</li>
+            <li>Data Structures & Algorithms, OOP</li>
+            <li>AWS Architecture & Pricing</li>
+        </ul>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="tab-content">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>LocalBridge – Civic Issue Reporting Platform</h3>
+            <p>
+                LocalBridge is a responsive web application that connects citizens with local authorities
+                by allowing users to report civic issues in their community.  
+                It promotes engagement and real-time resolution through an interactive interface.
+            </p>
+
+            <h4>🛠 Functionalities:</h4>
+            <ul>
+                <li>User authentication (sign-up/sign-in)</li>
+                <li>Submit civic issues with title, description, category, and image</li>
+                <li>Automatic status assignment (Pending, In Progress, Resolved)</li>
+                <li>Search and filter issues by category and status</li>
+                <li>Upvote/downvote issues with local persistence</li>
+                <li>Comment system per issue using localStorage</li>
+                <li>Responsive UI with sliding animations for details</li>
+            </ul>
+
+            <h4>💻 Technologies Used:</h4>
+            <p>HTML5, CSS3, JavaScript, PHP, MySQL</p>
+
+            <h4>📸 Screenshots:</h4>
+            <div class="gallery">
+                <img src="localbridge screenshot/homepagenew.png" alt="LocalBridge Homepage">
+                <img src="localbridge screenshot/issues.png" alt="LocalBridge Issues Page">
+                <img src="localbridge screenshot/view details.png" alt="LocalBridge Issue Details">
+            </div>
+        </div>
+    </section>
+
+    <!-- RESUME -->
+    <section id="resume" class="tab-content">
+        <h2>Resume</h2>
+        <p>Download my resume below:</p>
+        <a href="resume" download class="btn">📄 Download Resume</a>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="tab-content">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:nandinisonar248@gmail.com">nandinisonar248@gmail.com</a></p>
+        <p>Phone: <a href="tel:+919421169931">+91-9421169931</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/nandini-sonar-801849304" target="_blank">View Profile</a></p>
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 Nandini Sonar. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
